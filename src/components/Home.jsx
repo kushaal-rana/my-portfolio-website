@@ -15,7 +15,10 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-orange-300 py-4 max-w-md">
-          I turn ideas into seamless digital experiences with clean, efficient code. Passionate about building innovative solutions that solve real-world problems. I have a strong background in web development and programming languages.
+            I turn ideas into seamless digital experiences with clean, efficient
+            code. Passionate about building innovative solutions that solve
+            real-world problems. I have a strong background in web development
+            and programming languages.
           </p>
 
           <div>
@@ -28,7 +31,6 @@ const Home = () => {
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
                 <RiArrowRightSFill size={25} className="ml-2" />
-
               </span>
             </Link>
           </div>
@@ -38,7 +40,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-             className="rounded-2xl w-[300px] h-auto md:w-[500px] mx-auto"
+            className="rounded-2xl w-[300px] h-auto md:w-[500px] mx-auto"
           />
         </div>
       </div>
