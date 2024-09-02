@@ -4,13 +4,20 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-fit bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full h-fit bg-gradient-to-b from-gray-800 to-black text-white  lg:pt-52 relative z-10"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full md:h-[110%] ">
-        <div className="">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            About
-          </p>
+      {/* Container for the About Section */}
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center items-center lg:items-center w-full h-full md:h-[110%] relative">
+        {/* About Section Header */}
+        <div className="flex flex-col items-center text-center lg:items-center lg:text-center">
+          <div className="flex flex-col">
+            <h2 className="text-4xl lg:text-4xl font-semibold inline  mb-3 before:content-about relative before:absolute before:opacity-100 before:-top-[2.4rem] before:hidden before:lg:block lg:mr-52">
+              <span className="block border-b-4 border-gray-500 text-5xl lg:hidden">
+                About
+              </span>
+              <span className="hidden lg:block text-slate-300">Kushaal</span>
+            </h2>
+          </div>
         </div>
         <p className="text-xl mt-10">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid

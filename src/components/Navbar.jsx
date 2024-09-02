@@ -27,7 +27,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white  bg-black fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-50">
       <div>
         <Link to="home" smooth duration={500}>
           <h1 className="text-5xl font-signature ml-2 cursor-pointer">
@@ -57,7 +57,7 @@ const Navbar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-fit bg-gradient-to-b from-black to-green-900 text-gray-400">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen lg:h-screen  bg-gradient-to-b from-gray-900 to-cyan-900 text-gray-400">
           {links.map(({ id, link }) => (
             <li
               key={id}
