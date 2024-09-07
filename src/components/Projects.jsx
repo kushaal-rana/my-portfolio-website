@@ -5,7 +5,7 @@ import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
-const Portfolio = () => {
+const Projects = () => {
   const portfolios = [
     {
       id: 1,
@@ -40,9 +40,9 @@ const Portfolio = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="flex flex-col items-center text-center lg:items-center lg:text-center">
-          <h2 className="text-4xl lg:text-4xl font-semibold inline mb-14 before:content-portfolio relative before:absolute before:opacity-100 before:-top-[2rem] before:hidden before:lg:block lg:mr-96">
+          <h2 className="text-4xl lg:text-4xl font-semibold inline mb-14 before:content-projects relative before:absolute before:opacity-100 before:-top-[2rem] before:hidden before:lg:block lg:mr-96">
             <span className="block border-b-4 border-gray-500 text-5xl lg:border-none text-slate-300">
-              Portfolio
+              Projects
             </span>
           </h2>
         </div>
@@ -70,4 +70,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;

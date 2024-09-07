@@ -2,8 +2,8 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import SocialLinks from "./components/SocialLinks";
 import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
       <Home />
       <SocialLinks />
       <About />
-      <Portfolio />
-      <Experience />
+      <Projects />
+      <Skills />
       <Contact />
     </div>
   );
