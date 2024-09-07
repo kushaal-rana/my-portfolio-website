@@ -3,6 +3,7 @@ import HeroImage from "../assets/heroImage.jpeg";
 import { RiArrowRightSFill } from "react-icons/ri";
 import { Link } from "react-scroll";
 import { TypeAnimation } from "react-type-animation";
+import HeroBgAnimation from "../Utils/HeroBgAnimation/index.js"; // Import the HeroBgAnimation component
 
 const Details = {
   name: "Kushaal Rana",
@@ -29,13 +30,20 @@ const Home = () => {
       name="home"
       className="h-fit md:h-screen w-full bg-gradient-to-b from-black to-gray-800 pt-20 md:pt-2 relative overflow-hidden"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-5 md:flex-row relative z-10">
-        {/* Image - now first on mobile */}
-        <div className="order-1 md:order-2 mb-8 md:mb-0 mt-12 md:mt-0 ">
+      {/* Content Section */}
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-5 md:flex-row relative z-10 ">
+        {/* Image Container with Animation Background */}
+        <div className="relative order-1 md:order-2 md:mx-10 mb-8 md:mb-0 mt-12 md:mt-0">
+          {/* Background Animation behind the Image */}
+          <div className="absolute -top-[150px] -left-40 w-full h-full flex items-center justify-center">
+            <HeroBgAnimation />
+          </div>
+
+          {/* Image */}
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl w-[300px] h-auto md:w-[410px] mx-auto object-cover border-4 border-violet-800 shadow-lg shadow-indigo-500/50 transition-all duration-500 hover:scale-105 hover:shadow-blue-500"
+            className="rounded-2xl w-[300px] h-auto md:w-[400px] mx-auto object-cover border-4 border-violet-800 shadow-lg shadow-indigo-500/50 transition-all duration-500 hover:scale-105 hover:shadow-blue-500 relative z-10"
           />
         </div>
 
