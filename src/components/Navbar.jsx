@@ -30,7 +30,7 @@ const Navbar = () => {
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-50">
       <div>
         <Link to="home" smooth duration={500}>
-          <h1 className="text-5xl font-signature ml-2 cursor-pointer">
+          <h1 className="text-5xl font-signature ml-2 cursor-pointer hover:text-purple-600">
             Kushaal
           </h1>
         </Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-125 duration-200 hover:text-red-700"
+            className="px-4 cursor-pointer capitalize font-semibold hover:text-purple-700 hover:scale-125 duration-300"
           >
             <Link to={link} smooth duration={500}>
               {link}
@@ -48,12 +48,23 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-
+      {/* Mobile Menu Icon */}
       <div
         onClick={() => setNav(!nav)}
         className="cursor-pointer pr-4 z-10 text-gray-400 md:hidden"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+      </div>
+
+      <div className="hidden md:flex mr-8">
+        <a
+          href="https://github.com/kushaal-rana"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white border-2 font-semibold border-purple-600 px-4 py-2 rounded-lg hover:bg-purple-600 hover:text-white transition duration-300"
+        >
+          Github Profile
+        </a>
       </div>
 
       {nav && (
