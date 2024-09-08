@@ -35,10 +35,10 @@ const Contact = () => {
 
       emailjs
         .send(
-          "your_service_id", // Replace with your EmailJS Service ID
-          "your_template_id", // Replace with your EmailJS Template ID
+          "service_dvcv28f", // Replace with your EmailJS Service ID
+          "template_342cep6", // Replace with your EmailJS Template ID
           templateParams,
-          "your_user_id" // Replace with your EmailJS User ID
+          "DEWeLBxVSHkLVIbd2" // Replace with your EmailJS User ID
         )
         .then(
           (response) => {
@@ -65,7 +65,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="w-full min-h-screen bg-gradient-to-b from-black to-slate-800 p-6 text-white">
+    <div
+      name="contact"
+      className="w-full min-h-screen bg-gradient-to-b from-black to-slate-800 p-6 text-white"
+    >
       {/* Flex container for form and text */}
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full lg:pt-32">
         <div className="flex flex-col relative items-center lg:items-start">
@@ -91,7 +94,7 @@ const Contact = () => {
               </p>
             )}
             {successMsg && (
-              <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
+              <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] font-medium shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
                 {successMsg}
               </p>
             )}
@@ -155,6 +158,11 @@ const Contact = () => {
                 Let's talk
               </button>
             </div>
+            {successMsg && (
+              <p className="py-3 bg-gradient-to-r from-[#30343b] to-[#262c31] shadow-shadowOne font-medium text-center text-green-500 text-base tracking-wide animate-bounce mt-4">
+                {successMsg}
+              </p>
+            )}
           </form>
         </div>
       </div>
