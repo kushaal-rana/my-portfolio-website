@@ -12,25 +12,28 @@ const Contact = () => {
   const emailValidation = () => {
     return String(email)
       .toLowerCase()
-      .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w+)+$/);
+      .match(/^[a-zA-Z0-9._%+-]+(?<!\.)@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/);
   };
 
   const handleSend = (e) => {
     e.preventDefault();
-    if (username === "") {
+    const trimmedUsername = username.trim();
+    const trimmedEmail = email.trim();
+    const trimmedMessage = message.trim();
+    if (trimmedUsername === "") {
       setErrMsg("Username is required!");
-    } else if (email === "") {
+    } else if (trimmedEmail === "") {
       setErrMsg("Please enter your email!");
-    } else if (!emailValidation(email)) {
+    } else if (!emailValidation(trimmedEmail)) {
       setErrMsg("Please enter a valid email!");
-    } else if (message === "") {
+    } else if (trimmedMessage === "") {
       setErrMsg("Message is required!");
     } else {
       // Send email via EmailJS
       const templateParams = {
-        from_name: username,
-        from_email: email,
-        message: message,
+        from_name: trimmedUsername,
+        from_email: trimmedEmail,
+        message: trimmedMessage,
       };
 
       emailjs
@@ -48,8 +51,11 @@ const Contact = () => {
               response.text
             );
             setSuccessMsg(
-              `Thank you, ${username}. Your message has been sent successfully!`
+              `Thank you, ${trimmedUsername}. Your message has been sent successfully!`
             );
+            setTimeout(() => {
+              setSuccessMsg("");
+            }, 30000);
             setErrMsg("");
             // Clear form fields
             setUsername("");
