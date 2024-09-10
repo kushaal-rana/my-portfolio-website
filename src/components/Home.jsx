@@ -1,7 +1,8 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.jpeg";
-import { RiArrowRightSFill } from "react-icons/ri";
+import { FaArrowAltCircleRight } from "react-icons/fa";
 import { Link } from "react-scroll";
+
 import { TypeAnimation } from "react-type-animation";
 import HeroBgAnimation from "../Utils/HeroBgAnimation/index.js"; // Import the HeroBgAnimation component
 
@@ -68,17 +69,17 @@ const Home = () => {
             and programming languages.
           </p>
           <div className="flex justify-center md:justify-start">
-            <Link
-              to="portfolio"
-              smooth
-              duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-500 to-red-500 cursor-pointer"
+            <a
+              href="https://drive.google.com/file/d/16ZP5CcgCQ4gkRm21cv46p-SnSmhRbTXG/view" // Replace with your actual drive link
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500 cursor-pointer"
             >
-              Portfolio
-              <span className="group-hover:rotate-90 duration-300">
-                <RiArrowRightSFill size={25} className="ml-2" />
+              Resume
+              <span className="group-hover:translate-x-2 duration-300">
+                <FaArrowAltCircleRight size={20} className="ml-2" />
               </span>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
