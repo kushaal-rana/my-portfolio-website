@@ -29,6 +29,7 @@ const About = () => {
           <a
             href="https://www.linkedin.com/company/techigai/posts/?feedView=all"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <b className="text-slate-400"> Techigai Private Limited </b>
           </a>
