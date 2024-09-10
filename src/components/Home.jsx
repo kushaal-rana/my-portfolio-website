@@ -1,8 +1,6 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.jpeg";
 import { FaArrowAltCircleRight } from "react-icons/fa";
-import { Link } from "react-scroll";
-
 import { TypeAnimation } from "react-type-animation";
 import HeroBgAnimation from "../Utils/HeroBgAnimation/index.js"; // Import the HeroBgAnimation component
 
