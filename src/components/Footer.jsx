@@ -8,10 +8,15 @@ const Footer = () => {
     <div className="w-full py-8 flex justify-center bg-gray-900 text-gray-300">
       <div className="w-full max-w-screen-xl flex flex-col items-center gap-6 px-4">
         {/* Logo */}
-        <div className="flex flex-col items-center text-2xl font-semibold text-cyan-500">
-          Kushaal Rana <br />{" "}
-          <div className="font-medium text-lg text-cyan-400">
-            ranakushaal@gmail.com{" "}
+        <div className="flex flex-col items-center text-2xl font-semibold text-purple-500 hover:text-cyan-500">
+          Kushaal Rana <br />
+          <div className="font-medium text-lg text-purple-600">
+            <a
+              href="mailto:ranakushaal@gmail.com"
+              className="hover:text-cyan-500"
+            >
+              ranakushaal@gmail.com
+            </a>
           </div>
         </div>
 

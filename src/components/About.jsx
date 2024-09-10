@@ -20,26 +20,37 @@ const About = () => {
           </div>
         </div>
         <p className="text-xl mt-10">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-          repellendus mollitia quasi, adipisci maxime enim possimus totam eius
-          et quas quis corporis exercitationem repellat nemo in sint sequi
-          saepe. Nam? Voluptatibus officiis illo modi nostrum dolor assumenda,
-          sequi in fugit accusamus? Obcaecati aperiam dicta blanditiis, eligendi
-          mollitia molestias repellat aliquam similique doloremque voluptatibus
-          qui repudiandae. Est aperiam aliquid eius expedita. Tempora aperiam
-          perspiciatis laudantium aut, officiis libero eaque cum deserunt ipsam
-          ex! Nulla totam corrupti facere, maiores fugiat itaque repudiandae
-          reiciendis possimus facilis ab libero id excepturi consequuntur
-          reprehenderit ex.
+          I am Kushaal Rana, a passionate and highly motivated software engineer
+          with a strong foundation in Computer Science, currently pursuing my
+          Master's at SUNY Stony Brook University. With a robust academic
+          background, holding a 3.8 GPA, and hands-on experience across diverse
+          technologies, I excel in full-stack development and building
+          innovative, scalable solutions. I have 2 years of work experience at
+          <a
+            href="https://www.linkedin.com/company/techigai/posts/?feedView=all"
+            target="_blank"
+          >
+            <b className="text-slate-400"> Techigai Private Limited </b>
+          </a>
+          , where I led projects that delivered impactful results, from building
+          feature-rich vendor portals for over 10,000 users to deploying
+          microservices with .NET Core, AWS, and Docker. My experience spans
+          developing RESTful APIs, optimizing cloud infrastructures, and
+          enhancing database performance, contributing to system efficiency and
+          exceptional user experiences.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est rerum
-          repudiandae tempora quis omnis! Asperiores eveniet dolorem sunt, ut
-          dolor incidunt necessitatibus placeat in fuga culpa earum ea odit
-          tempore consequuntur cupiditate sint, nobis ab! Nesciunt, sunt. Nobis
-          eum nemo obcaecati, perspiciatis, voluptatem vitae fugiat ipsum iusto
-          neque modi saepe!
+          I have a proven ability to tackle complex problems, demonstrated
+          through my work in fields like machine learning and data science. My
+          projects range from creating healthcare applications powered by AI to
+          developing real-time communication platforms with technologies like
+          React, Node.js, and Flask. I'm driven by a curiosity for cutting-edge
+          technologies and a commitment to continuous learning and eager to
+          showcase my skills and share my work by solving complex challenges and
+          delivering results., I am constantly looking for opportunities where I
+          can contribute to impactful projects and collaborate with
+          forward-thinking teams that prioritize innovation and growth,
         </p>
       </div>
     </div>
