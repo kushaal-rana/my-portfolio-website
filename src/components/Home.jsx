@@ -63,15 +63,17 @@ const Home = () => {
           <p className="text-slate-500 font-normal text-lg py-4 max-w-md text-center md:text-left">
             I turn ideas into seamless digital experiences with clean, efficient
             code. Passionate about building innovative solutions that solve
-            real-world problems. I have a strong background in web development
-            and programming languages.
+            real-world problems. I specialize in developing modern web
+            applications and integrating AI-driven solutions to create dynamic,
+            user-centric experiences, focusing on performance, scalability, and
+            innovation.
           </p>
           <div className="flex justify-center md:justify-start">
             <a
               href="https://drive.google.com/file/d/16ZP5CcgCQ4gkRm21cv46p-SnSmhRbTXG/view" // Replace with your actual drive link
               target="_blank"
               rel="noopener noreferrer"
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500 cursor-pointer"
+              className="group text-white w-fit px-7 py-3.5 my-2 flex items-center rounded-md bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500 cursor-pointer"
             >
               Resume
               <span className="group-hover:translate-x-2 duration-300">
