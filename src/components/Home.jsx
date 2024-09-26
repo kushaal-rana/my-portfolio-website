@@ -18,7 +18,7 @@ const Details = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/kushaal-rana",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/1Ngi4Kg6sAeYdTQU-2vvXesH5ZcoQEsZ6/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/kushaal-rana/",
   insta: "https://www.instagram.com/kushaalrana/",
 };
