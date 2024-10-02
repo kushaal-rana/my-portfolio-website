@@ -70,7 +70,7 @@ const Home = () => {
           </p>
           <div className="flex justify-center md:justify-start">
             <a
-              href="https://drive.google.com/file/d/16ZP5CcgCQ4gkRm21cv46p-SnSmhRbTXG/view" // Replace with your actual drive link
+              href="https://drive.google.com/file/d/1Ngi4Kg6sAeYdTQU-2vvXesH5ZcoQEsZ6/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="group text-white w-fit px-7 py-3.5 my-2 flex items-center rounded-md bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-500 cursor-pointer"
